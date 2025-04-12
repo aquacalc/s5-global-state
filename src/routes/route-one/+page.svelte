@@ -1,5 +1,9 @@
 <script>
-	//
+
+	const handleSearch = () => {
+		alert('Search button clicked');
+	};
+
 </script>
 
 <h1>This is Route One</h1>
@@ -7,23 +11,6 @@
 <hr />
 
 <div class="section">
-	<!-- <div class="text">
-		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam dolorum vel quis mollitia
-		dolore ab accusamus, corrupti a facilis sequi ut! Rerum iusto, reprehenderit nisi nam modi
-		sapiente consectetur perspiciatis? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-		Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-		voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum
-		dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet
-		consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur
-		adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing
-		elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-		voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum
-		dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus. Lorem ipsum dolor sit amet
-		consectetur adipisicing
-	</div> -->
-
 	<div class="col-">
 		<div class="static">
 			<h1>Static</h1>
@@ -35,6 +22,13 @@
 
 		<div class="fixed">
 			<h1>Fixed</h1>
+		</div>
+
+		<div class="fixed-btn">
+			<div class="search-wrapper">
+				<input type="search" name="search" id="search" placeholder="Search..." />
+				<button onclick={handleSearch}>button</button>
+			</div>
 		</div>
 
 		<div class="sticky">
@@ -151,14 +145,41 @@
 	.section {
 		display: grid;
 		grid-template-columns: 1fr 3fr;
-		/* flex-direction: column;
-		align-items: center; */
+		margin: 0 3em;
 	}
 
 	.text {
 		margin: 2em 8em;
 		/* font-size: 1.5rem; */
 		line-height: 1.1rem;
+	}
+
+	.search-wrapper {
+		position: relative;
+	}
+
+	input[type='search'] {
+		position: absolute;
+		width: 100%;
+		height: 2.5rem;
+		padding: 0.5rem;
+		border-radius: 0.5rem;
+		border: 1px solid #ccc;
+		box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+		top: 0;
+		left: 0rem;
+		/* z-index: 500; */
+	}
+	button {
+		position: absolute;
+		top: 1.25em;
+		left: 10rem;
+		transform: translateY(-50%);
+		color: #ccc;
+		cursor: pointer;
+	}
+	button:hover {
+		color: #fff;
 	}
 
 	hr {
@@ -201,8 +222,23 @@
 		color: rgb(238, 255, 0);
 		opacity: 0.85;
 		position: fixed;
-		top: 130px;
-		left: 130px;
+		top: 430px;
+		left: 305px;
+	}
+
+	.fixed-btn {
+		/* background-color: #04ba19; */
+		border-radius: 1rem;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		padding: 1em;
+		height: 20vh; /* for browser compatibility (if no support for dvh) */
+		width: 20vw;
+		/* border: 3px solid #f3a617; */
+		color: rgb(238, 255, 0);
+		opacity: 0.85;
+		position: fixed;
+		top: 330px;
+		left: 05px;
 	}
 
 	.sticky {
@@ -216,8 +252,8 @@
 		color: rgb(238, 255, 0);
 		opacity: 0.85;
 		position: sticky;
-		top: 60px;
-		left: 480px;
+		top: 75px;
+		left: 0px;
 		z-index: 20;
 	}
 
