@@ -4,5 +4,6 @@ import { myCounter } from './state/Counter.svelte.js';
 import Heading from './components/Heading.svelte';
 import Select from './components/CustomSelect.svelte';
 import Navbar from './components/Navbar.svelte';
+import SocialIcons from './components/SocialIcons.svelte';
 
-export { Navbar, myCounter, Heading, Select };
+export { Navbar, myCounter, Heading, Select, SocialIcons };
