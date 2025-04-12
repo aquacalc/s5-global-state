@@ -108,6 +108,9 @@
 	nav {
 		background-color: var(--primary-color);
 		border-bottom: 1px solid var(--hover-color);
+		position: sticky;
+		top: 0;
+		z-index: 100;
 	}
 
 	nav ul {
