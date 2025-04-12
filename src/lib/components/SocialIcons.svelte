@@ -2,6 +2,12 @@
 	const MyGuyBri = `My Guy Bri\'s`;
 </script>
 
+<a href='https://www.youtube.com/watch?v=UQKWc2r_41U' target='_blank' rel='noopener noreferrer'>
+  <h3  class="text-xl  text-blue-700"> see: https://www.youtube.com/watch?v=UQKWc2r_41U</h3>
+  </a>
+
+  <h1 class="text-2xl font-bold text-blue-500">Welcome to {MyGuyBri} Tooltip Icons</h1>  
+
 <div class="socials-container">
 	<a href="https://x.com/codingtogo" data-social={`${MyGuyBri} X`} style="--accent-color: #000;">
 		<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
