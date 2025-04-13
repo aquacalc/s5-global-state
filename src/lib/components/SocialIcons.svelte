@@ -1,5 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
+	import { fade } from 'svelte/transition'; // Import fade transition
 
 	let container; // Reference to the container using bind:this
 
@@ -45,7 +46,7 @@
 	});
 </script>
 
-<div class="socials-container" bind:this={container}>
+<div class="socials-container" bind:this={container} in:fade>
 	{#each socialLinks as social}
 		<a
 			href={social.url}
