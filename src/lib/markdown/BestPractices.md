@@ -1,3 +1,15 @@
+---
+title: Best Practices
+description: Best Practices description.
+date: '2023-4-14'
+categories:
+  - sveltekit
+  - svelte
+published: true
+
+slug: 'best-practices'
+---
+
 You are an expert in web development. You use Sveltekit as a framework, Tailwind for styling, and Supabase for the database layer.
 
 Make sure that you are using the latest versions of each technology. 

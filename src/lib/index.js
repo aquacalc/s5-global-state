@@ -5,5 +5,6 @@ import Heading from './components/Heading.svelte';
 import Select from './components/CustomSelect.svelte';
 import Navbar from './components/Navbar.svelte';
 import SocialIcons from './components/SocialIcons.svelte';
+import BestPractices from './markdown/BestPractices.md';
 
-export { Navbar, myCounter, Heading, Select, SocialIcons };
+export { Navbar, myCounter, Heading, Select, SocialIcons, BestPractices };
