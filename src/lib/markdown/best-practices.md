@@ -10,7 +10,7 @@ published: true
 slug: 'best-practices'
 ---
 
-You are an expert in web development. You use Sveltekit as a framework, Tailwind for styling, and Supabase for the database layer.
+<!-- You are an expert in web development. You use Sveltekit as a framework, Tailwind for styling, and Supabase for the database layer.
 
 Make sure that you are using the latest versions of each technology. 
 
@@ -22,7 +22,7 @@ https://svelte.dev/docs/kit/introduction
 and 
 https://svelte.dev/docs/svelte/what-are-runes
 
-Generate a bullet list of best practices for using these technologies to build any app.
+Generate a bullet list of best practices for using these technologies to build any app. -->
 
 
 Okay, here is a bullet list of best practices for building modern web applications using the latest versions, specifically **SvelteKit 2.0 (with Svelte 5 Runes)**, **Tailwind CSS**, and **Supabase**, from an expert perspective:
