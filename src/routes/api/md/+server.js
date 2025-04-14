@@ -22,9 +22,9 @@ const getPosts = async () => {
 			const metadata = file.metadata;
 			const post = { ...metadata, slug };
 
-      console.log(post.slug);
-      console.log(post.metadata);
-      console.log(post.default);
+      // console.log(post.slug);
+      // console.log(post.metadata);
+      // console.log(post.default);
 
 			post.published && posts.push(post);
 		}
