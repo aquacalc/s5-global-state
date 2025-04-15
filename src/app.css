@@ -34,3 +34,26 @@ main {
 main p {
   margin-top: 0.35em;
 }
+
+	section {
+		background-color: #f8f8f8;
+		border-radius: 1rem;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		padding: 2em;
+
+		/* see: 8'12" https://www.youtube.com/watch?v=2IV08sP9m3U */
+		height: 100vh; /* for browser compatibility (if no support for dvh) */
+		height: 100dvh;
+
+		width: 100vw;
+		border: 15px solid #f3a617;
+	}
+
+	button {
+		/* padding: 0.5em 1em; */
+		padding-top: 0.75em;
+		padding-bottom: 0.75em;
+		margin: 0.5em;
+		border-radius: 0.5em;
+		cursor: pointer;
+	}
