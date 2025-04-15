@@ -1,10 +1,11 @@
 ---
 title: Best Practices
 description: Best Practices description.
-date: '2023-4-14'
+date: '2025-4-14'
 categories:
-  - sveltekit
-  - svelte
+  - sveltekit 2
+  - svelte 5
+  - tailwindcss
 published: true
 
 slug: 'best-practices'
