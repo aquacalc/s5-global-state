@@ -1,20 +1,15 @@
 <script>
 	let { data } = $props();
-
-	console.log(data);
-	console.log(data.posts);
-	console.log(data.posts[0].metadata);
-	// console.log(data.posts[0].title);
 </script>
 
 <h1>This is Route Three</h1>
 
-<!-- <svelte:head>
+<svelte:head>
 	<title>{data.posts[0].title}</title>
 </svelte:head>
 
-<p class="date">{formatDate(post.date)}</p>
- -->
+<!-- <p class="date">{formatDate(post.date)}</p> -->
+
 
 <section>
 	<ul class="posts">
@@ -27,7 +22,7 @@
 	</ul>
 </section>
 
-<style>
+<!-- <style>
 	.posts {
 		display: grid;
 		gap: var(--size-7);
@@ -45,13 +40,13 @@
 				text-transform: capitalize;
 			}
 
-			.date {
+			/* .date {
 				color: var(--text-2);
-			}
+			} */
 
 			.description {
 				margin-top: var(--size-3);
 			}
 		}
 	}
-</style>
+</style> -->
