@@ -36,7 +36,7 @@
 </section>
 
 <hr />
-
+<!-- 
 <style>
 	section {
 		background-color: #f8f8f8;
@@ -60,4 +60,4 @@
 		border-radius: 0.5em;
 		cursor: pointer;
 	}
-</style>
+</style> -->

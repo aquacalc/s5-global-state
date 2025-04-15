@@ -22,8 +22,8 @@ export async function load({ params }) {
 
     // console.log('params.slug');
     // console.log(params.slug);
-    console.log('post.metadata.title');
-    console.log(post.metadata.title);
+    // console.log('post.metadata.title');
+    // console.log(post.metadata.title);
 
 		return {
 			content: post.default,
