@@ -23,16 +23,14 @@
 		{/each}
 	</div>
 
-  <hr />
-
-	<!-- <div class="prose"> -->
-		<data.content />
-	<!-- </div> -->
+	<hr />
 </article>
+
+<data.content />
 
 <style>
 	article {
-    /* background-color: antiquewhite; */
+		background-color: antiquewhite;
 		max-inline-size: var(--size-content-3);
 		margin-inline: auto;
 
